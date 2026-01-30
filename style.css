@@ -57,7 +57,7 @@ hr {
   width: 80%;
   margin: 10px auto;
 }
-.portfolio,.overview {
+.portfolio,.overview,.aboutme {
   display: flex;
   justify-content: center;
   font-size: 2.5rem;
@@ -67,7 +67,10 @@ hr {
   font-family: "Playfair display";
 }
 .overview {
-  font-family: "Dancing Script"
+  font-family: "Playfair display";
+}
+.aboutme {
+  font-family: "Playfair display";
 }
 hr.hr1{
   border: 2px solid #BDE8F5;
@@ -93,5 +96,11 @@ hr.hr1{
   list-style-type:
 }
 
+.about {
+  display: flex;
+  justify-content: center;
+  align: center;
+  font-family: "JetBrains Mono"
 
+}
 
