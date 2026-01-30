@@ -9,6 +9,10 @@
    margin: 0; 
    padding: 0 ;
 }
+body{
+  margin: 0;
+  padding: 0;
+}
 .container {
   width: 100%;
   height: 100vh;
@@ -33,7 +37,7 @@ ul {
   list-style-type: none;
    display: flex;
    justify-content: center;
-   gap: 60px;
+   gap: 30px;
    margin: 0px;
    padding-top: 15px;
  }
@@ -53,21 +57,26 @@ hr {
   width: 80%;
   margin: 10px auto;
 }
-.portfolio {
+.portfolio,.overview {
   display: flex;
   justify-content: center;
-  font-family: "Playfair Display";
   font-size: 2.5rem;
   color: #4988C4;
-  } 
+}
+.portfolio {
+  font-family: "Playfair display";
+}
+.overview {
+  font-family: "Dancing Script"
+}
 hr.hr1{
   border: 2px solid #BDE8F5;
   width: 30%;
   margin: 5px auto;
 }
 
-.intro {
-  width: 25%;
+.intro,.oview {
+  width: 60%;
   margin: auto;
   margin-top: 10px;
   border-radius: 10px;
@@ -76,10 +85,13 @@ hr.hr1{
   justify-content: center;
   gap: 5px;
   font-family: "JetBrains Mono";
-  font-size: 1rem;
   border: 1px solid #4988C4;
   color: #4988C4;
   background-color: #BDE8F5;
 }
+.oview  {
+  list-style-type:
+}
+
 
 
