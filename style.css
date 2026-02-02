@@ -93,11 +93,9 @@ hr.hr1{
   background-color: #BDE8F5;
 }
 .oview  {
-  list-style-type:
 }
 
-.about {
-  padding: 40px 20px 0px;
+p {
   color: #4988C4;
   display: flex;
   justify-content: center;
@@ -105,9 +103,26 @@ hr.hr1{
   font-size: 1rem;
   font-family: "JetBrains Mono";
 }
+.about {
+  padding: 40px 20px 0px;
+}
+.Code {
+  padding-top 20px;
+}
 
 hr.hr0 {
   margin-top:40rem;
 }
+ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+  padding-top: 20px;
+  text-align: center;
+  font-family: "JetBrains Mono";
+  font-size: 1.5rem;
+  color: #4988C4;
+
+}
+
 
 
